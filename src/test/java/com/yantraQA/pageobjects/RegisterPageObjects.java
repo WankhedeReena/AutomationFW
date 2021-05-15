@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 public class RegisterPageObjects {
-WebDriver driver;
+   WebDriver driver;
 	
 	//2nd thing
 	private By firstName = By.xpath("//input[@ng-model = 'FirstName']");

@@ -1,26 +1,18 @@
 package com.yantraQA;
 
-import org.junit.Test;
-import org.openqa.selenium.By;
+import java.util.concurrent.TimeUnit;
 
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 
 import com.yantraQA.base.TestBase;
 import com.yantraQA.pageobjects.RegisterPageObjects;
 import com.yantraQA.pageobjects.SignUpPageObjects;
 
-import java.util.concurrent.TimeUnit;
-
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-
-
-public class TestScriptJUnit extends TestBase
-{
+public class TestScriptJUnit2 extends TestBase{
 	
 	@Test
 	public void t_01_sign_up()
@@ -92,3 +84,5 @@ public class TestScriptJUnit extends TestBase
 		//		driver.findElement(By.id("submitbtn")).click();
 	}
 }
+
+
